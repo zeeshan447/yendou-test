@@ -67,6 +67,7 @@ const Counter = (props: Props) => {
                           lineHeight="16px"
                           color="#ffffff"
                         >
+                          {/*state updates in React are asynchronous  */}
                           Counter is now {count + 1}
                         </Text>
                       </Flex>
